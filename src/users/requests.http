@@ -4,6 +4,33 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-    "email": "asdf@asdf.com",
+    "email": "aungaung@gmail.com",
     "password": "password"
+}
+
+### Find Particular Single User
+
+GET  http://localhost:3000/auth/2
+Content-Type: application/json
+
+
+### Find Users
+
+GET  http://localhost:3000/auth?email=aungaung@gmail.com
+Content-Type: application/json
+
+
+
+### Remove User
+
+DELETE   http://localhost:3000/auth/54
+Content-Type: application/json
+
+
+### Update User
+
+PATCH  http://localhost:3000/auth/2
+Content-Type: application/json
+
+{
 }
