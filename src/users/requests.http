@@ -1,12 +1,33 @@
-### Create New User
+### Create New User | signup
 
 POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-    "email": "aungaung@gmail.com",
+    "email": "aungzawphyo@gmail.com",
     "password": "password"
 }
+
+### Sign In
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "linnkhit@gmail.com",
+    "password": "password"
+}
+
+### Who am I
+
+GET  http://localhost:3000/auth/whoami
+Content-Type: application/json
+
+
+### Singout
+
+POST  http://localhost:3000/auth/signout
+Content-Type: application/json
 
 ### Find Particular Single User
 
