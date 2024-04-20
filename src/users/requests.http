@@ -4,7 +4,7 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-    "email": "aungzawphyo@gmail.com",
+    "email": "ayeayeaung@gmail.com",
     "password": "password"
 }
 
@@ -55,3 +55,9 @@ Content-Type: application/json
 
 {
 }
+
+
+### Hello World
+
+GET  http://localhost:3000/
+Content-Type: application/json
