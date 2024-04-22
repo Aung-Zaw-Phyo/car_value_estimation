@@ -1,0 +1,29 @@
+### Create Report
+
+POST  http://localhost:3000/reports
+Content-Type: application/json
+
+{
+    "make": "ford",
+    "model": "mustang",
+    "year": 1994,
+    "lat": 45,
+    "lng": 45,
+    "mileage": 6000,
+    "price": 18000
+}
+
+
+### Approved Report
+
+PATCH  http://localhost:3000/reports/1
+Content-Type: application/json
+
+{
+    "approved": true
+}
+
+
+### Get Estimate
+
+GET   http://localhost:3000/reports?make=ford&model=mustang&year=1990&lat=45&lng=45&mileage=6000
