@@ -1,5 +1,6 @@
 .env.development
 .env.test
+note.txt
 
 # compiled output
 /dist
